@@ -1,0 +1,103 @@
+body{
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    cursor: url('./images/mousey.png'), auto;
+   
+}
+* {   
+    margin: 0;
+    padding: 0;
+}
+.fill_screen{
+    margin:auto;
+}
+.wrapper{
+    max-width: 100%;
+    opacity:50%;
+    min-height: 50vh;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,pink, rgb(235, 169, 207),rgb(225, 142, 217));
+}
+
+#projects{
+    background-image: url('images/background2.png');
+    background-size:cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    opacity:50%;
+    min-height: 100vh;
+    justify-content: center;
+    display:inline-flex;
+
+}
+h1{
+    font-size: 100px;
+
+    color:aliceblue;
+    
+}
+#block1{
+    padding:10%;
+    width:90%;
+    text-align: center;
+    justify-content: center;
+}
+
+#navbar{
+    height: 40px;
+    opacity:100%;
+    padding:5px;
+    color:#facadc;
+    font-size:30px;
+    background-color: #B08EAA;
+    box-shadow:0px 1px #5c56846c;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+}
+#navbar ul{
+    list-style-type: none;
+    display:inline;
+}
+#navbar ul li{
+    display:inline;
+    
+    margin-left: 10px;
+    width:70px;
+    
+}
+#navbar ul li a:hover{
+    background-color: #e0bad9;
+
+    color:#8a2d88;
+    font-size:31px;
+}
+#navbar ul li a:visited{
+    color:#691f68;
+    font-size:31px;
+}
+.box{
+    margin-top: 20px;
+    padding:20px;
+    text-align: center;
+    width:40%;
+    height:200px;
+    background-color: #B08EAA;
+    margin-left:auto;
+    margin-right: auto;
+    color:#FFE0E5;
+    margin-bottom:20px;
+}
+.box h3{
+    font-size: 30px;
+}
+.box hr{
+    border:2px solid #FFE0E5;
+}
+.box p{
+    margin-top: 7px;
+}
