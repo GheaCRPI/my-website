@@ -1,0 +1,16 @@
+.text{
+   display:flex;
+   justify-content: right;
+
+   height: 100%;
+   margin-right: 2%;
+   margin-top: 0%;
+   
+   font-family: "Playfair Display", serif;
+   font-size: 80%;
+   width:95%;
+}
+
+#bio{
+   justify-content:left;
+}
