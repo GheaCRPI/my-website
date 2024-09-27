@@ -1,0 +1,39 @@
+{
+    "items": [
+       {
+          "title": "Pixel Art",
+          "link": "https://replit.com/@GheaChaw/Pixel-Art-2",
+          "description": "click the paint brush! to run it press the \"run\" button on the top"
+       },
+       {
+         "title": "MindBodyU",
+         "link": "../../ITWS1100-S24-team13/index.html",
+         "description": "We prototyped a webpage for our final project in Intro to ITWS"
+       },
+       {
+          "title": "Lab 2: Resume",
+          "link": "../labs/lab2/chawg-gheachaw-resume.html",
+          "description": "created a resume"
+       },
+       {
+          "title": "Lab 3: Website",
+          "link": "../index.html",
+          "description": "this website"
+       },
+       {
+          "title": "Lab 4: RSS and XML",
+          "link": "../labs/lab4/lab4.html",
+          "description": "created RSS and Atom feeds"
+       },
+       {
+          "title": "Lab 5: Javascript",
+          "link": "../labs/lab5/lab5.html",
+          "description": "Implemented Javascript"
+       },
+       {
+          "title": "Lab 6: JQuery",
+          "link": "../labs/lab6/lab6.html",
+          "description": "Used Jquery"
+       }
+    ]
+ }
