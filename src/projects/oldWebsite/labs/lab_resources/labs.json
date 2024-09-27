@@ -1,0 +1,44 @@
+{
+    "items": [
+       {
+          "title": "Lab 1",
+          "link": "",
+          "description": "Setting up our azure instances"
+       },
+       {
+          "title": "Lab 2",
+          "link": "./Lab2/chawg-gheachaw-resume.html",
+          "description": "I created a resume using HTML and CSS"
+       },
+       {
+          "title": "Lab 3: Website",
+          "link": "../../index.html",
+          "description": "I built the landing page of this website, and also added a labs and project page to store my labs and projects"
+       },
+       {
+          "title": "Lab 4: RSS",
+          "link": "./lab4/lab4.html",
+          "description": "Learned how to read and creat RSS and Atom feeds using XML"
+       },
+       {
+          "title": "Lab 5: Javascript",
+          "link": "./lab5/lab5.html",
+          "description": "Used javascript to create a form and different buttons"
+       },
+       {
+          "title": "Lab 6: JQuery",
+          "link": "./labs/lab6/lab6.html",
+          "description": "Used Jquery to create alerts as well as add and remove items from a list, and do modify text."
+       },
+       {
+          "title": "Lab 9: JQuery, RSS, and Atom Feeds",
+          "link": "./lab9/lab9.html",
+          "description": "Used Jquery read RSS and Atom feeds."
+       },
+       {
+          "title": "Lab 10: PHP and SQL",
+          "link": "./lab10/index.php",
+          "description": "Used PHP and SQL to create a database"
+       }
+    ]
+ }
