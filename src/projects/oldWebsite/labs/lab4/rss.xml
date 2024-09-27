@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="xmlstyle.css"?>
+<rss version="2.0">
+   <channel>
+      <title>Lab 4 links</title>
+      <description>Links to different news articles</description>
+      <link>https://submitty.cs.rpi.edu/home</link>
+ 
+      <item>
+         <title>Migrating animal populations aren't exhibiting normal behavior</title>
+         <description>In a landmark U.N. study, researchers found nearly half of the world's threatened migratory species have declining populations. More than a fifth of the assessed animals face extinction. </description>
+         <pubDate>Mon, 12 Feb 2024 19:00:21 -0500</pubDate>
+         <link>https://www.npr.org/2024/02/12/1230929548/across-the-world-migrating-animal-populations-are-dwindling-heres-why</link>
+         <guid>https://www.npr.org/2024/02/12/1230929548/across-the-world-migrating-animal-populations-are-dwindling-heres-why</guid>
+
+      </item>
+
+      <item>
+         <title>Some Nasa thing </title>
+	      <description>woooo space omg </description>
+	      <pubDate>Tue, 13 Feb 2024 18:21:40 +0000</pubDate>
+	      <link>https://www.nasa.gov/image-article/spiral-galaxy-ngc-4254s-dazzling-swirls/</link>
+      </item>
+
+      <item>
+         <title> fox news </title>
+	      <description> swiss doctor helps kids in gaza </description>
+         <link>https://www.foxnews.com/world/swiss-doctor-helps-evacuate-injured-children-from-gaza</link>
+         <pubDate>Tue, 13 Feb 2024 12:51:38 -0500</pubDate>
+      </item>
+
+      <item>
+         <title>New York Times Article on Sumerians </title>
+         <description> Discusses who the first person to kiss someone was </description>
+         <link>https://www.nytimes.com/2024/02/13/science/archaeology-sumeria-kissing.html</link>
+      </item>
+      <item>
+         <title> A pregnant stingray </title>
+         <description> Woah a stingray had 4 pups </description>
+         <link>http://chaski.huffpost.com/us/auto/vertical/science </link>
+      </item>
+   </channel>
+</rss>

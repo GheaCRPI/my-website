@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="xmlstyle.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <title> Lab 4 atom document </title>
+   <updated>2024-02-13T21:20:02Z</updated>
+   <id>http://chawgrpi.eastus.cloudapp.azure.com/iit/</id>
+   <author><name>Ghea Chaw</name></author>
+   
+   <entry>
+       <title> New York Times Article on Sumerians </title>
+       <id>https://www.nytimes.com/2024/02/13/science/archaeology-sumeria-kissing.html</id>
+       <link href = "https://www.nytimes.com/2024/02/13/science/archaeology-sumeria-kissing.html"/>
+       <updated>2024-02-13T06:00:18Z</updated>
+       
+   </entry>
+   
+   <entry>
+      <title> Nasa swirly galaxy !! </title>
+      <author>
+         <name> Monika Luabeya </name>
+      </author>
+      <link href = "https://www.nasa.gov/image-article/spiral-galaxy-ngc-4254s-dazzling-swirls/"/>
+      <id>https://www.nasa.gov/image-article/spiral-galaxy-ngc-4254s-dazzling-swirls</id>
+      
+      <updated>2024-02-13T18:21:24Z</updated>
+   </entry>
+
+   <entry>
+      <title>Migrating animal populations aren't exhibiting normal behavior</title>
+      <id>https://www.npr.org/2024/02/12/1230929548/across-the-world-migrating-animal-populations-are-dwindling-heres-why</id>
+      <link href = "https://www.npr.org/2024/02/12/1230929548/across-the-world-migrating-animal-populations-are-dwindling-heres-why"/>
+      <updated>2024-02-12T19:00:21Z</updated> 
+    
+   </entry>
+
+   <entry>
+      <title>Swiss Doctor in Gaza</title>
+      <id>https://www.foxnews.com/world/swiss-doctor-helps-evacuate-injured-children-from-gaza</id>
+      <link href = "https://www.foxnews.com/world/swiss-doctor-helps-evacuate-injured-children-from-gaza"/>
+      <updated>2024-02-13T12:51:38Z</updated> 
+    
+   </entry>
+
+   <entry>
+      <title>Pregnant Stingray</title>
+      <id>https://www.huffpost.com/entry/bc-us-round-stingray-surprise-pregnancy_n_65cc09b8e4b067c6b73ef3d6</id>
+      <link href="http://chaski.huffpost.com/us/auto/vertical/science"/>
+      <updated>2024-02-13T19:37:21Z</updated> 
+    
+   </entry>
+
+   
+</feed>
