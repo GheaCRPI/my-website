@@ -1,0 +1,251 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    background-image: linear-gradient(to bottom right, rgb(214, 240, 255), #b4d4ff, #c9ccfd, #e7c6fc, rgb(251, 216, 247));
+    min-height: 100vh;
+    overflow: auto;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+#navbar {
+    background-color: #31496a;
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top:0;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#navbar ul li {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+    box-shadow: 10px;
+    display: inline;
+    
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px; 
+    background-color: #c9ccfd;
+    border:2px solid #f781be;
+}
+
+#navbar ul li a:hover {
+    filter: brightness(80%);
+}
+
+#navbar ul li.login,
+#navbar ul li.signup {
+    font-weight: bold; 
+    font-style: italic; 
+}
+
+#navbar ul li.login a,
+#navbar ul li.signup a {
+    background-color: #f781be; 
+    color: white; 
+}
+
+h1 {
+    float: right;
+    display: flex;
+    margin-right: 0; 
+    font-family:"Montserrat", sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.container {
+    width: 70%;
+    
+}
+
+#container{
+    position: relative; 
+    padding-top: 250px;
+
+}
+
+.logo {
+    width: 180px; 
+    height: 180px;
+    background-image: url('../Resources/MindBodyU.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+}
+
+h2{
+    font-family: "Unica One", sans-serif;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+#message {
+    justify-content: center;
+    margin-right: 60px; 
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #31496a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-icons {
+    display: flex;
+    margin-right: auto; 
+    margin-left: 20px;
+
+}
+
+.social-icon {
+    color: white; 
+    font-size: 25px; 
+    margin-right: 10px; 
+}
+
+.social-icon:hover{
+    filter: brightness(80%);
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+
+
+
+
+/*login form*/
+#bodyBlock {
+    padding: 20px;
+    border-radius: 2%;
+    background: rgb(49, 73, 106);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 550px;
+}
+
+form {
+    
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+}
+
+legend {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.field {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 5px;
+
+    
+}
+.value input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:10px;
+    width: calc(100% - 30px); 
+    font-family: "Montserrat", sans-serif;
+    font-weight:400;
+    font-size:14px;
+}
+
+.value input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    color: #31496a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:15px;
+}
+
+input[type="submit"]:hover {
+    filter:brightness(80%);
+}
+
+h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+}
+h4 a{
+    font-weight:bold;
+    color:white;
+}
+
+h4 a:hover{
+    filter:brightness(80%)
+}
+
+.remember-forgot a{
+    color:white;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+.remember-forgot{
+    margin-top:20px;
+}
