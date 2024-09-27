@@ -1,0 +1,641 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    background-image: linear-gradient(to bottom right, rgb(214, 240, 255), #b4d4ff, #c9ccfd, #e7c6fc, rgb(251, 216, 247));
+    min-height: 100vh;
+    overflow: auto;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+/*-- ------------------------------------- navbar ------------------------------------------*/
+
+#navbar {
+    background-color: #31496a;
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top:0;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#navbar ul li {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+    box-shadow: 10px;
+    display: inline;
+    
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px; 
+    background-color: #c9ccfd;
+    border:2px solid #f781be;
+}
+
+#navbar ul li a:hover {
+    filter: brightness(80%);
+}
+
+#navbar ul li.login,
+#navbar ul li.signup {
+    font-weight: bold; 
+    font-style: italic; 
+}
+
+#navbar ul li.login a,
+#navbar ul li.signup a {
+    background-color: #f781be; 
+    color: white; 
+}
+
+h1 {
+    float: right;
+    display: flex;
+    margin-right: 0; 
+    font-family:"Montserrat", sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.logo {
+    width: 180px; 
+    height: 180px;
+    background-image: url('../Resources/MindBodyU.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+}
+
+h2{
+    font-family: "Unica One", sans-serif;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+/*-- ------------------------------------- -heading ------------------------------------------*/
+
+.main-wrapper {
+    font-family:"Montserrat", sans-serif;
+    padding: 20%;
+    margin: 20px;
+    text-align: center;
+}
+
+#fitness-heading {
+    font-size: 150px; 
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding-top: 60px; 
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.fitness-subheading {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.heading-button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.heading-button {
+    background-color: transparent;
+    color: #2196F3; 
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid #2196F3; /* Add a blue border to define button edges */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.heading-button:hover {
+    background-color: #2196F3; 
+    color: white;
+}
+/*------------------------------------------Benefit-------------------------------------------*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+.subtitle {
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bold; 
+    font-style: italic;
+    color:#222; 
+    letter-spacing:1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    margin: 10%;
+    margin-bottom: 5%;
+}
+
+.subtitle:after,.subtitle:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #2196F3;
+    border-top: 1px solid black;
+    height: 5px;
+ 
+}
+
+
+/* Container for the boxes */
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    gap: 20px; 
+}
+
+/* Individual box styling */
+.box {
+    width: calc(33% - 20px); /* Adjust box widths for three per row */
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for headings inside boxes */
+.box h2 {
+    color: #31496a; 
+    margin: 0 0 10px;
+}
+
+/* Paragraph styling in boxes */
+.box p {
+    line-height: 1.6; 
+}
+
+/*------------------------------------------Type-------------------------------------------*/
+
+.slideshow-container {
+    position: relative;
+    width: 100%;  
+    height: 800px;
+    overflow: hidden;  /* Prevents slides from displaying outside the container */
+}
+
+.slide {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    height: 100%;  
+    position: absolute;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;  /* Ensures slide is not visible when it's not active */
+}
+
+.slide.active {
+    opacity: 1;
+    visibility: visible;  /* Makes only the active slide visible */
+}
+
+.slide img {
+    margin-left: 5%;
+    width: 720px;
+    height: 580px;
+}
+
+.slide .text {
+    margin-right: 5%;
+    width: 40%;
+    
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+
+}
+
+
+.slide .text h2 {
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    display: block;
+    
+}
+
+
+.slide .text ul {
+    padding-left: 20px;
+    list-style-type: square; /* Squares as bullet points for stylistic choice */
+}
+
+.slide .text ul li {
+    margin-bottom: 10px;
+}
+
+
+.slide .text a {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    background-color: #f781be;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 3%;
+}
+
+.slide .text a:hover {
+    background-color: #f5b4d5; 
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.next {
+    right: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+/* ---------------------------- Planner------------------------------*/
+
+ .workout-routines, .motivational-quote {
+    margin-top: 30px;
+    padding: 20px;
+} 
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f781be;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background-color: #c9ccfd;
+} 
+
+
+.fitness-planner {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    font-family:"Montserrat", sans-serif;
+    justify-content: center;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .planner {
+        flex-direction: column;
+    }
+
+    .circle-text {
+        width: 90%;
+        height: auto;
+    }
+
+    .main-wrapper, .circle-container, #make-plan-wrapper, #tip-resourse-wrapper {
+        margin: 5%;
+        padding: 5%;
+    }
+
+    .main-button {
+        font-size: 20px; 
+    }
+
+    .box-container {
+        flex-direction: column; 
+        align-items: center; 
+        padding-top: 50px; 
+    }
+
+    .box {
+        width: 80%; 
+        margin: 20px 0; 
+    }
+}
+
+.planner {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    
+}
+
+.planner-column {
+    width: 30%;
+    background-color: #f0f0f0;
+    color: #31496a;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(60, 48, 83, 0.6);
+
+}
+
+.planner-column h3 {
+    text-align: center;
+}
+
+.planner ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.planner ul li {
+    background-color: #e7e7e7;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+/* ------------------------workout----------------------- */
+
+
+.box2 {
+    background-color: #b4d4ff; 
+    width: 70%;
+    margin: 50px auto; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(60, 48, 83, 0.6);
+    padding: 30px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.box2 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.box2 h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.box2 input[type="text"] {
+    width: 90%; 
+    padding: 8px; 
+    border-radius: 5px; 
+    border: 1px solid #31496a; 
+    margin-bottom: 15px; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.box2 button {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(60, 48, 83, 0.6);
+    background-color: white;
+    color: #31496a;
+    font-size: 20px;
+    font-family: inherit;
+    border: solid 2px #31496a;
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+.box2 button:hover {
+    background-color: #31496a; 
+    color: white; 
+    filter: none; /* Remove filter on hover */
+}
+
+.box2 ul li {
+    list-style-type: none;
+    padding: 5px 0; 
+}
+.workout-plan-instructions {
+    margin: 20px auto;
+    width: 80%; 
+    background-color: #b4d4ff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    color: #31496a; 
+    border: 2px solid white; 
+}
+
+.workout-plan-instructions h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer; /* Indicates the header is clickable */
+    padding: 10px;
+    text-align: center; 
+    color: #31496a; 
+    border-radius: 6px;
+    margin: -15px -15px 10px -15px; /* Aligns header with box edges */
+}
+
+.workout-plan-instructions .steps-list {
+    list-style-type: none; /* Removes default list style */
+    padding: 0;
+    text-align: left;
+}
+
+.workout-plan-instructions .steps-list li {
+    background-color: white; 
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #31496a; 
+    font-size: 16px;
+}
+
+.workout-plan-instructions .steps-list strong {
+    color: #31496a; 
+}
+
+#instructionContent {
+    display: none; /* Start hidden until toggled */
+    animation: fadeIn 0.3s ease-in-out; /* Smooth fade-in effect */
+}
+
+
+
+
+
+/* ---------------------------- workout cards------------------------------*/
+
+
+.workout-card {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+    margin: 20px 0; 
+    transition: transform 0.3s ease-in-out; /* Smooth transform effect */
+}
+
+.workout-card h2 {
+    color: #31496a; 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    font-family: cursive;
+}
+
+.workout-card p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #666; 
+    margin-bottom: 8px; 
+}
+
+.workout-card:hover {
+    transform: translateY(-10px); /* Lifts the card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+#workoutCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.workout-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    width: calc(50% - 20px); /* Adjusts the width to fit 2 cards per row, accounting for margin */
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box; /* Includes padding and border in the width */
+}
+
+
+
+/* form */
+
+legend{
+    font-size: 20px;
+    
+}
+
+/*------------------------------------------footer-------------------------------------------*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #31496a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-icons {
+    display: flex;
+    margin-right: auto; 
+    margin-left: 20px;
+
+}
+
+.social-icon {
+    color: white; 
+    font-size: 25px; 
+    margin-right: 10px; 
+}
+
+.social-icon:hover{
+    filter: brightness(80%);
+}
