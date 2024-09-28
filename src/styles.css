@@ -130,7 +130,8 @@ h1{
   .wrapper{
       max-width: 100%;
       opacity:50%;
-      min-height: 25vh;
+      background-size: 700px;
+      min-height: 30vh;
       justify-content: center;
       background-image: url('images/index_background.png');
       background-attachment: fixed;
@@ -149,8 +150,9 @@ h1{
   }
   h1{
       font-size: 60px;
-      color:#93768e;
+      color:aliceblue;
       margin-right:50px;
+      margin-top:30px
   }
   body{
       background-color: pink;
@@ -176,7 +178,7 @@ h1{
     background-attachment: fixed;
     max-width: 100%;
     opacity:50%;
-    min-height: 50vh;
+    min-height: 30vh;
     justify-content: center;
     
   }
