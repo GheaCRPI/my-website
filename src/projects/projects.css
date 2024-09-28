@@ -103,8 +103,8 @@ h1{
     margin-bottom:20px;
 }
 .photo{
-    width:330px;
-    height:200px;
+    width:90%;
+    height:80%;
     box-shadow:0px 2px 3px #5c56846c;
     
 }
@@ -136,3 +136,69 @@ h3{
 .box p{
     margin-top: 7px;
 }
+
+@media screen and (max-width: 1000px){
+    .project{
+        padding-left:10px;
+        padding-right:10px;
+        text-align: center;
+        display:block;
+    }
+    .box {
+      width: 85%;
+    }
+    .photo{
+        width:90%;
+        height:70%;
+        box-shadow:0px 2px 3px #5c56846c;  
+    }
+    #block1{
+        width:100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .wrapper{
+        max-width: 100%;
+        opacity:50%;
+        min-height: 25vh;
+        justify-content: center;
+        background-image: url('../images/background3.png');
+        background-attachment: fixed;
+    }
+    #navbar{
+        height: 40px;
+        opacity:100%;
+        padding:5px;
+        color:#facadc;
+        font-size:30px;
+        background-color: #B08EAA;
+        box-shadow:0px 1px #5c56846c;
+        position: fixed;
+        width:100%;
+        z-index: 1;
+    }
+    h1{
+        font-size: 80px;
+        color:#93768e;
+        margin-right:170px;
+    }
+    body{
+        background-color: pink;
+        background-attachment: fixed;
+        background-size:auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    *{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    h3{
+        vertical-align: middle;
+        margin-top: 10px;
+        font-size:30px;
+        color:#B08EAA;
+        text-shadow:0px 2px 3px #c37aa26c;
+    }
+  }
